@@ -9,24 +9,12 @@
       "id": 2
     },
     {
-      "todo": "Schnapps kaufen",
-      "id": 3
-    },
-    {
-      "todo": "Drogeen kaufen",
-      "id": 4
-    },
-    {
       "todo": "Eier kaufen",
       "id": 6
     },
     {
       "todo": "Halli Galli",
       "id": 7
-    },
-    {
-      "todo": "Yo yoyo",
-      "id": 8
     }
   ]
 }

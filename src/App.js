@@ -17,7 +17,7 @@ function App() {
   
   function handleDelete(event) {
     const id = event.target.id;
-    axios.delete(`localhost:3004/todos/${event.target.id}`)
+    axios.delete(`http://localhost:3004/todos/${event.target.id}`);
   }
 
   //EventHandler Funktion für das Submit Event
