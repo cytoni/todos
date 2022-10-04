@@ -1,10 +1,20 @@
 {
-    "todos": [
-      { "id": 1, "title": "Bier", "author": "Abe" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
-  
+  "todos": [
+    {
+      "id": 1,
+      "todo": "Bier kaufen"
+    },
+    {
+      "todo": "Milch kaufen",
+      "id": 2
+    },
+    {
+      "todo": "Schnapps kaufen",
+      "id": 3
+    },
+    {
+      "todo": "Drogeen kaufen",
+      "id": 4
+    }
+  ]
+}
