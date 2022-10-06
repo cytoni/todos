@@ -15,7 +15,7 @@ function App() {
 
   //Eine Liste mit React machen
   const todoListe = todos.map((item) => 
-  <li key={item.id}>{item.todo}<input type="checkbox" class="check"></input><button id={item.id} onClick={handleDelete}>Löschen</button></li>);
+  <li key={item.id}>{item.todo}<input type="checkbox" className="check"></input><button id={item.id} onClick={handleDelete}>Löschen</button></li>);
 
   //Delete Funktion
   function handleDelete(event) {
