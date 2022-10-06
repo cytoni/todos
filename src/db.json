@@ -1,20 +1,24 @@
 {
   "todos": [
     {
-      "id": 1,
-      "todo": "Bier kaufen"
+      "todo": "Bier kaufen",
+      "id": 1
     },
     {
       "todo": "Milch kaufen",
       "id": 2
     },
     {
-      "todo": "Eier kaufen",
-      "id": 6
+      "todo": "Essen bestellen",
+      "id": 3
     },
     {
-      "todo": "Halli Galli",
-      "id": 7
+      "todo": "Aufräumen",
+      "id": 4
+    },
+    {
+      "todo": "Wäsche waschen",
+      "id": 5
     }
   ]
 }

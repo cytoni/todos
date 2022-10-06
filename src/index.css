@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+font-size: 36px;
+font-weight: 800;
+background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-left: -40px;
+}
+
+li {
+  min-width: 250px;
+  background-color: aliceblue;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 10px;
+  list-style: none;
+  text-align: right;
+  gap: 10px;
+}
+li:hover {
+  background-color:azure;
+}
+
+button {
+  color: green;
+  padding: 5px;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid blue;
+  padding: 5px;
+}
+input:checked {
+  margin-left: 30px;
+}
+.check {
+  margin: 0 10px 0 20px;
+  width: 16px;
+  height: 16px;
+}

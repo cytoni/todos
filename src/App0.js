@@ -6,22 +6,20 @@ function App() {
   //useState
   const [todos, setTodos] = useState([]);
   const [aufgabe, setAufgabe] = useState("");
-  const [del, setDel] = useState([]);
 
   useEffect(() => {
     //Listen Daten von der REST Api holen
     axios.get("http://localhost:3004/todos").then((response) => setTodos(response.data));
-  }, [aufgabe, del]);
+  }, [aufgabe]);
 
   //Eine Liste mit React machen
   const todoListe = todos.map((item) => 
-  <li key={item.id}>{item.todo}<input type="checkbox" class="check"></input><button id={item.id} onClick={handleDelete}>Löschen</button></li>);
-
+  <li key={item.id}>{item.todo}<button>check</button><button id={item.id} onClick={handleDelete}>Löschen</button></li>);
+  
   //Delete Funktion
   function handleDelete(event) {
     const id = event.target.id;
-    axios.delete(`http://localhost:3004/todos/${event.target.id}`)
-    .then((response) => {setDel([])});
+    axios.delete(`http://localhost:3004/todos/${event.target.id}`);
   }
 
   //EventHandler Funktion für das Submit Event
